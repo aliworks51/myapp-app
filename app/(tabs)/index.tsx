@@ -16,7 +16,7 @@ export default function App() {
   const [address, setAddress] = useState("");
   const [plat, setPlat] = useState("");
 
-  const SERVER = "http://100.95.0.195:3000"; // <-- غير هاد IP باللي عندك فال backend
+  const SERVER = "http://192.168.1.119:3000"; // <-- غير هاد IP باللي عندك فال backend
 
   const handleSubmit = async () => {
     if (!nom || !prenom || !phone || !address || !plat) {
